@@ -1,175 +1,153 @@
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "Arial", sans-serif;
+    background-color: white;
+  }
 
-  
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        font-family: 'Arial', sans-serif;
-       
-      }
-     
-      .right-text-section{
-        display: none;
-      }
-      .left-text-section{
-        display: none;
-      }
-  
-      .container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white; 
-      }
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: white;
-      }
-      .container {
-        display: flex;
-       justify-content: center;
-        align-items: center;
-      border: 0;
-      background-color: white;
-      }
-      
-      .right-text-section {
-        text-align: left;
-        
-        height: 100%;
-        margin: 5px;
-        max-width: 300px;
-        max-height: 750px;
-        
-      }
-      .text-item {
-            border-radius: 10px;
-            max-height: 750px;
-      }
-      .ABOUT {
-      
-        width: 240px;
-        height: 240px;
-        border-radius: 50%;
-        background-color:white; /* Change the background color as needed */
-        color: black; /* Change the text color as needed */
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-      }
-      
-      .CSS {
-        width: 240px;
-        height: 240px;
-        border-radius: 50%;
-        background-color: white; /* Change the background color as needed */
-        color: black; /* Change the text color as needed */
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-      }
-      .HTML {
-      
-      width: 240px;
-      height: 240px;
-      border-radius: 50%;
-      background-color: white; /* Change the background color as needed */
-      color: black; /* Change the text color as needed */
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-      }
-      .JS  {
-        width: 240px;
-        height: 240px;
-        border-radius: 50%;
-        background-color: white; /* Change the background color as needed */
-        color: black; /* Change the text color as needed */
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-      }
-      .image {
-        
-        margin-bottom: 20px;
-        height: auto;
-        order: 0;
-        margin: 10px;
-      }
-      
-      .top-text-section {
-        text-align: left;
-      
-        margin-left: 10px;
-      }
-   
-      .bottom-text-section {
-        text-align: left;
-       
-      }
-      
-  
-      .ABOUT {
-     
-        order: 1 !important;
-     
-      }
-      .CSS{
-     
-        order: 2 !important;
-      }
-      .HTML{
-      
-        order: 3 !important;
-      }
-     
-      .JS{
-       
-        order: 4 !important;
-      }
-      .logo {
-        height: 40px;
-        width: 40px;
-      }
+  .right-text-section {
+    display: none;
   }
-  
-  @media (min-width: 481px) {
-    .container {
-        flex-direction: row;
-    }
-    .image {
-        order: 2;
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    .left-text-section {
-      order: 3;
-      text-align: center;
-      word-wrap: break-word;
-     
+  .left-text-section {
+    display: none;
   }
-    .right-text-section {
-        order: 1;
-        
-        text-align: center;
-    }
-    .bottom-text-section {
-      display: none;
-      }
-      
-      .top-text-section{
-      display: none;
-      }
-    
-   
-  
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: white;
+  }
+
+  .right-text-section {
+    text-align: left;
+    height: 100%;
+    margin: 5px;
+    max-width: 300px;
+    max-height: 750px;
+  }
+  .text-item {
+    border-radius: 10px;
+    max-height: 750px;
+  }
+  .react {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .CSS {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .HTML {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .JS {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .image {
+    margin-bottom: 20px;
+    height: auto;
+    order: 0;
+    margin: 10px;
+  }
+
+  .top-text-section {
+    text-align: left;
+
+    margin-left: 10px;
+  }
+
+  .bottom-text-section {
+    text-align: left;
+  }
+
+  .react {
+    order: 1 !important;
+  }
+  .CSS {
+    order: 2 !important;
+  }
+  .HTML {
+    order: 3 !important;
+  }
+
+  .JS {
+    order: 4 !important;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 481px) {
+  .container {
+    flex-direction: row;
+  }
+  .image {
+    order: 2;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .left-text-section {
+    order: 3;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .right-text-section {
+    order: 1;
+
+    text-align: center;
+  }
+  .bottom-text-section {
+    display: none;
+  }
+
+  .top-text-section {
+    display: none;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -178,74 +156,68 @@
   }
   .container {
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
-  border: 0;
-  background-color: white;
+    border: 0;
+    background-color: white;
   }
-  
+
   .right-text-section {
     text-align: left;
-    
+
     height: 100%;
     margin: 5px;
     max-width: 300px;
     max-height: 750px;
-    
   }
   .text-item {
-        border-radius: 10px;
-        max-height: 750px;
+    border-radius: 10px;
+    max-height: 750px;
   }
   .about {
-  
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color:white; /* Change the background color as needed */
-    color: black; /* Change the text color as needed */
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
   }
-  
+
   .css {
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: white; /* Change the background color as needed */
-    color: black; /* Change the text color as needed */
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
   }
   .html {
-  
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  background-color: white; /* Change the background color as needed */
-  color: black; /* Change the text color as needed */
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  }
-  .js  {
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: white; /* Change the background color as needed */
-    color: black; /* Change the text color as needed */
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
   }
-  
-      /* Adjust styles for smaller screens */
-      
+  .js {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
   .logo {
-  height: 40px;
-  width: 40px;
+    height: 40px;
+    width: 40px;
   }
-  
-  }
+}
